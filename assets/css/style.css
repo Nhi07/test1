@@ -112,3 +112,50 @@ form a {
     text-align: right;
     color: rgba(37, 50, 116, 0.6);
 }
+
+form button {
+    position: relative;
+    margin-top: 16px;
+    width: 342px;
+    height: 70px;
+    background: #00b3fe;
+    box-shadow: 0px 15px 25px rgba(0, 179, 254, 0.15);
+    border-radius: 12px;
+    border: none;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 2px;
+    color: #ffffff;
+}
+
+form button img {
+    position: absolute;
+    left: calc(50% - 18.23px / 2 + 119.75px);
+    top: calc(50% - 18.23px / 2 + 0.47px);
+}
+
+.social {
+    margin: 31px 92px 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social div {
+    width: 64px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 3px 45px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 414px;
+    height: 140px;
+    background: #013088;
+    border-radius: 0px 50px 0px 0px;
+}
