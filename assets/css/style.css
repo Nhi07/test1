@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "SF Pro Text", sans-serif;
+    font-size: 1.6rem;
+}
+
+main {
+    width: 414px;
+    margin: auto;
+    height: 896px;
+    background: #00b3fe;
+}
+
+header {
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .status {
+    margin-right: 19px;
+}
+
+header .time {
+    width: 54px;
+    height: 18px;
+    margin-left: 21px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #ffffff;
+    padding: 0 10px;
+}
+
+.xoom {
+    display: block;
+    margin: 36px auto;
+}
+
+h1 {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #011947;
+}
